@@ -1,0 +1,40 @@
+/* General reset and layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Navbar styling */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    float: left;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 16px 17px;
+    text-decoration: none;
+}
+
+/* Table styling */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    margin-top: 20px;
+}
