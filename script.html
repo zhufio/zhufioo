@@ -1,0 +1,50 @@
+<h3>Add New Employee</h3>
+<form id="addEmployeeForm">
+    <label for="Wrestlers">Wrestlers:</label>
+    <input type="text" id="wrestlers" name="wrestlers" required><br><br>
+    
+    <label for="wins">Wins:</label>
+    <input type="text" id="wins" name="wins" required><br><br>
+    
+    <label for="Losses">Losses:</label>
+    <input type="text" id="losses" name="losses" required><br><br>
+    
+    <label for="Falls">Falls gained:</label>
+    <input type="text" id="Falls" name="falls gained" required><br><br>
+    
+    <label for="ZCW">ZCW Champs:</label>
+    <input type="text" id="zcw" name="zcw champs" required><br><br>
+
+    <label for="Cheap">Cheap Champs:</label>
+    <input type="text" id="cheap" name="Cheap champs" required><br><br>
+    
+    <label for="True">True wrestling Champs:</label>
+    <input type="text" id="true" name="true Wrestling champs" required><br><br>
+    
+    <button type="button" onclick="addRow()">Wrestlers</button>
+</form>
+
+<script>
+function addRow() {
+    // Get table and form values
+    const table = document.getElementById("employeeTable").getElementsByTagName('tbody')[0];
+    const Wrestlers = document.getElementById("wrestler").value;
+    const Wins= document.getElementById("wins").value;
+    const Losses = document.getElementById("losses").value;
+    const Falls = document.getElementById("falls gained").value;
+    const ZCW = document.getElementById("zcw champs").value;
+    const Cheap = document.getElementById("cheap champs").value;
+    const True = document.getElementById("true wrestling champs").value;
+
+    // Insert a new row at the end of the table
+    const newRow = table.insertRow();
+
+    // Insert cells and add values
+    newRow.insertCell(0).textContent = Wrestlers;
+    newRow.insertCell(1).textContent = Wins
+    newRow.insertCell(2).textContent = Losses;
+    newRow.insertCell(3).textContent = Falls;
+    newRow.insertCell(4).textContent = ZCW;
+    newRow.insertCell(5).textContent = Cheap;
+    newRow.insertCell(6).textContent = True;
+}
