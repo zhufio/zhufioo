@@ -42,3 +42,24 @@ th {
 tr:hover {
     background-color: #80f1af; /* Light gray */
 }
+/* Style for both tables if using a shared class */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Specific styles for the second table */
+#data-table-2 {
+    background-color: #f9f9f9;
+}
+
+#data-table-2 th {
+    background-color: #333;
+    color: white;
+}

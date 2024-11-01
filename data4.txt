@@ -1,0 +1,17 @@
+Rank,Participant,Match W-L-T,Pts,Pts Diff,TB,Set Wins,Set Ties
+1,Bops Rox,12 - 3 - 0,26,18,0,12,0
+2,Fred Bones Thaddeus,12 - 3 - 0,25,14,0,12,0
+3,Hero Cole,10 - 5 - 0,22,9,0,10,0
+4,Kendrick Trajanboy,9 - 6 - 0,22,6,0,9,0
+5,The Kid Drago,9 - 6 - 0,21,6,0,9,0
+6,Isaac OOO,8 - 7 - 0,20,1,0,8,0
+7,Heat Zasx,8 - 7 - 0,19,0,0,8,0
+8,Blank Minty,8 - 7 - 0,18,-1,0,8,0
+9,Diego Ed,7 - 8 - 0,16,-2,0,7,0
+10,Spike Papaya,7 - 8 - 0,16,-3,0,7,0
+11,Moon Jet,7 - 8 - 0,16,-4,0,7,0
+12,Cookie Deez,6 - 9 - 0,18,-3,0,6,0
+13,Casual Rocket,6 - 9 - 0,16,-5,0,6,0
+14,Otunga Reyes,6 - 9 - 0,15,-7,0,6,0
+15,The BLT Gary,3 - 12 - 0,11,-13,0,3,0
+16,Lando Xander,2 - 13 - 0,11,-16,0,2,0

@@ -1,0 +1,88 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Container for Sidebar and Content */
+.container {
+    display: flex;
+}
+
+/* Table of Contents Sidebar */
+.toc {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.toc h2 {
+    font-size: 1.5em;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc ul li {
+    margin: 10px 0;
+}
+
+.toc ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.toc ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Area */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(99, 197, 130);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+}
+tr:hover {
+    background-color: #80f1af; /* Light gray */
+}
