@@ -7,3 +7,4 @@ Rank, Participant, Match W-L-T, Pts, Pts Diff, TB, Wrestler A, Wrestler B, Match
 6, Rox Bops, 3 - 4 - 0, 6, -3, 0, Benjamin Bops, Will Rox, WWLLWLL
 7, Minty Blanks, 2 - 5 - 0, 4, -8, 0, Minty Mania, Blank Shadow, LWLLLLW
 8, Drago Kids, 1 - 6 - 0, 7, -6, 0, The Kid, Mason Drago, LLWLLLL
+
