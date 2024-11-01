@@ -1,4 +1,4 @@
-Rank,Participant,Match W-L-T,Pts,Pts Diff,TB,Set Wins,Set Ties
+Rank,Participant,Match W-L-T,Pts,Pts Diff,TB,Wrestler A,Wrestler B
 1,Bops Rox,12 - 3 - 0,26,18,0,12,0
 2,Fred Bones Thaddeus,12 - 3 - 0,25,14,0,12,0
 3,Hero Cole,10 - 5 - 0,22,9,0,10,0
