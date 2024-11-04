@@ -1,4 +1,4 @@
-Rank, Participant, Match W-L-T, Pts, Pts Diff, TB, Wrestler A, Wrestler B, Match History
+Rank, Team, Match W-L-T, Pts, Pts Diff, TB, Wrestler A, Wrestler B, Match History
 1, Hero Coles, 6 - 1 - 0, 12, 6, 0, Hero Cho, Cole Castor, WLWWWWW
 2, KT, 5 - 2 - 0, 12, 6, 0, Trajanboy, Kendrick Bush, WWWWWLL
 3, Task: Heat, 5 - 2 - 0, 11, 7, 0, Heat, Zack Task, WWLWLWW

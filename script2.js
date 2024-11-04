@@ -1,5 +1,5 @@
 // Fetch and display data for the first table
-fetch('data2.txt')
+fetch('data-folder/data2.txt')
     .then(response => response.text())
     .then(data => {
         const rows = data.trim().split('\n');
@@ -21,7 +21,7 @@ fetch('data2.txt')
     .catch(error => console.error('Error loading data for data-table:', error));
 
 // Fetch and display data for the second table
-fetch('data3.txt')
+fetch('data-folder/data3.txt')
     .then(response => response.text())
     .then(data => {
         const rows = data.trim().split('\n');

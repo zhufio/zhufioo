@@ -1,4 +1,4 @@
-Rank, Participant, Match W-L-T, Pts, Pts Diff, TB, Wrestler A, Wrestler B, Match History
+Rank, Team, Match W-L-T, Pts, Pts Diff, TB, Wrestler A, Wrestler B, Match History
 1, Moon Jets, 6 - 1 - 0, 13, 8, 0, Aiden Jet, Kyle Moon, LWWWWWW
 2, Uber Cowboys, 4 - 3 - 0, 10, 2, 0, Spike Cowboy, Uber Squeezed Papaya, LWLLWWW
 3, Xander Landon, 4 - 3 - 0, 10, 1, 0, Noah Landon, Xander Velvet, WLWLLWW

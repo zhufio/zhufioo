@@ -1,5 +1,5 @@
 // Fetch and display data from the txt file
-fetch('data4.txt')
+fetch('data-folder/data4.txt')
     .then(response => response.text())
     .then(data => {
         const rows = data.trim().split('\n'); // Split lines
