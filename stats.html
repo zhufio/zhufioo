@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wrestler Stats</title>
     <link rel="stylesheet" href="styless.css"> 
+</head>
+<body>
     <header>
         <nav class="navbar">
             <a href="index.html" title="Home">Home</a>
@@ -14,10 +16,27 @@
         </nav>
     </header>
 
-</head>
-<body>
     <h1>Wrestler Stats</h1>
-    <table id="data-table"></table>
+    <div class="table-wrap">
+        <table id="data-table" class="sortable">
+            <thead>
+                <tr>
+                    <th><button>Wrestlers
+                        <span aria-hidden="true"></span>
+                    </button></th>
+                     <th><button>Wins<span aria-hidden="true"></span></button></th>
+                    <th><button>Losses<span aria-hidden="true"></span></button></th>
+                    <th><button>Falls Gained<span aria-hidden="true"></span></button></th>
+                    <th><button>ZCW Champs<span aria-hidden="true"></span></button></th>
+                    <th><button>Cheap Champs<span aria-hidden="true"></span></button></th>
+                    <th><button>True Wrestling Champs<span aria-hidden="true"></span></button></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- JavaScript will populate rows here -->
+            </tbody>
+        </table>
+    </div>
 
     <script src="script.js"></script>
 </body>
