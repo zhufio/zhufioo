@@ -1,9 +1,9 @@
 Rank, Team, Match W-L-T, Pts, Pts Diff, TB, Wrestler A, Wrestler B, Match History
-1, The Mints, 4 - 3 - 0, 9, 3, 0, The Kid, Minty Mania, WLWWWWW
+1, Viridian Sail, 6 - 1 - 0, 12, 7, 0, Mr Viridian, Troy the Sailor, WWLWLWW
 2, Otunga Velvet, 6 - 1 - 0, 12, 7, 0, Jason Otunga, Xander Velvet, WWWWWLL
-3, Viridian Sail, 6 - 1 - 0, 12, 7, 0, Mr Viridian, Troy the Sailor, WWLWLWW
-4, Prime Time, 4 - 3 - 0, 8, 2, 0, Percy Primetime, Reed Hall-Boyd, LLLWWWL
-5, Charming Draw, 2 - 5 - 0, 5, -6, 0, Quickdraw Evan, Warren Charming, LLWLLWW
-6, Larstal, 4 - 3 - 0, 9, 3, 1, Lars Hamilton, Crystal, WWLLWLL
-7, Land Dragons, 2 - 5 - 0, 6, -5, 0, Noah Landon, Mason Drago, LWWWWWW
+3, Larstal, 4 - 3 - 0, 9, 3, 1, Lars Hamilton, Crystal, WWLLWLL
+4, The Mints, 4 - 3 - 0, 9, 3, 0, The Kid, Minty Mania, WLWWWWW
+5, Prime Time, 4 - 3 - 0, 8, 2, 0, Percy Primetime, Reed Hall-Boyd, LLLWWWL
+6, Land Dragons, 2 - 5 - 0, 6, -5, 0, Noah Landon, Mason Drago, LWWWWWW
+7, Charming Draw, 2 - 5 - 0, 5, -6, 0, Quickdraw Evan, Warren Charming, LLWLLWW
 8, Shadow Rays, 1 - 6 - 0, 4, -8, 0, Blank Shadow, Ralph Reyes, LWLLWWW
