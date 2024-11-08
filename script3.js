@@ -11,7 +11,7 @@ const wrestlerData1 = [
 
 const wrestlerData2 = [
     [1, "Viridian Sail", "6 - 1 - 0", 12, 7, 0, "Mr Viridian", "Troy the Sailor", "WWLWLWW"],
-    [2, "Otunga Velvet", "6 - 1 - 0", 12, 7, 0, "Jason Otunga", "Xander Velvet", "WWWWWLL"],
+    [2, "Otunga Velvet", "5 - 2 - 0", 10, 4, 0, "Jason Otunga", "Xander Velvet", "WWWWWLL"],
     [3, "Larstal", "4 - 3 - 0", 9, 3, 1, "Lars Hamilton", "Crystal", "WWLLWLL"],
     [4, "The Mints", "4 - 3 - 0", 9, 3, 0, "The Kid", "Minty Mania", "WLWWWWW"],
     [5, "Prime Time", "4 - 3 - 0", 8, 2, 0, "Percy Primetime", "Reed Hall-Boyd", "LLLWWWL"],
