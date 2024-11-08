@@ -185,3 +185,27 @@ table.sortable th:not([aria-sort]) button:hover span::after {
   font-size: 100%;
   top: 0;
 }
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    float: left;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 16px 17px;
+    text-decoration: none;
+}
+.arrow {
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.asc::after {
+  content: "▲";
+}
+
+.desc::after {
+  content: "▼";
+}

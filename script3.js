@@ -1,43 +1,58 @@
-// Fetch and display data for the first table
-fetch('data-folder/data5.txt')
-    .then(response => response.text())
-    .then(data => {
-        const rows = data.trim().split('\n');
-        const table = document.getElementById('data-table');
+const wrestlerData1 = [
+    ["1", "Hero Coles", "6 - 1 - 0", 13, 7, 0, "Hero Cho", "Cole Castor", "WLWWWWW"],
+    ["2", "KT", "3 - 4 - 0", 10, 1, 0, "Trajanboy", "Kendrick Bush", "WWWWWLL"],
+    ["3", "Task: Heat", "3 - 4 - 0", 8, -2, 0, "Heat", "Zack Task", "WWLWLWW"],
+    ["4", "Indestructible Os", "5 - 2 - 0", 11, 3, 0, "Indestructible Isaac", "Owen Owl Oxley", "LLLWWWL"],
+    ["5", "Frostbite Jays", "1 - 6 - 0", 5, -7, 0, "Frostbite Fred Bones", "Thaddeus Jay", "LLWLLWW"],
+    ["6", "Rox Bops", "3 - 4 - 0", 7, -1, 0, "Benjamin Bops", "Will Rox", "WWLLWLL"],
+    ["7", "Moon Jets", "3 - 4 - 0", 8, -2, 0, "Aiden Jet", "Kyle Moon", "LWWWWWW"],
+    ["8", "Uber Cowboys", "4 - 3 - 0", 9, 1, 0, "Spike Cowboy", "Uber Squeezed Papaya", "LWLLWWW"]
+];
 
-        rows.forEach((row, index) => {
-            const cols = row.split(',');
-            const tr = document.createElement('tr');
+const wrestlerData2 = [
+    ["1", "The Mints", "4 - 3 - 0", 9, 3, 0, "The Kid", "Minty Mania", "WLWWWWW"],
+    ["2", "Otunga Velvet", "6 - 1 - 0", 12, 7, 0, "Jason Otunga", "Xander Velvet", "WWWWWLL"],
+    ["3", "Viridian Sail", "6 - 1 - 0", 12, 7, 0, "Mr Viridian", "Troy the Sailor", "WWLWLWW"],
+    ["4", "Prime Time", "4 - 3 - 0", 8, 2, 0, "Percy Primetime", "Reed Hall-Boyd", "LLLWWWL"],
+    ["5", "Charming Draw", "2 - 5 - 0", 5, -6, 0, "Quickdraw Evan", "Warren Charming", "LLWLLWW"],
+    ["6", "Larstal", "4 - 3 - 0", 9, 3, 1, "Lars Hamilton", "Crystal", "WWLLWLL"],
+    ["7", "Land Dragons", "2 - 5 - 0", 6, -5, 0, "Noah Landon", "Mason Drago", "LWWWWWW"],
+    ["8", "Shadow Rays", "1 - 6 - 0", 4, -8, 0, "Blank Shadow", "Ralph Reyes", "LWLLWWW"]
+];
 
-            cols.forEach(col => {
-                const cell = document.createElement(index === 0 ? 'th' : 'td');
-                cell.textContent = col.trim();
-                tr.appendChild(cell);
-            });
-
-            table.appendChild(tr);
+function generateTableData(data, tableId) {
+    const tableBody = document.querySelector(`#${tableId} tbody`);
+    tableBody.innerHTML = ''; // Clear any existing rows
+    data.forEach(row => {
+        let tr = document.createElement("tr");
+        row.forEach(cell => {
+            let td = document.createElement("td");
+            td.textContent = cell;
+            tr.appendChild(td);
         });
-    })
-    .catch(error => console.error('Error loading data for data-table:', error));
+        tableBody.appendChild(tr);
+    });
+}
 
-// Fetch and display data for the second table
-fetch('data-folder/data6.txt')
-    .then(response => response.text())
-    .then(data => {
-        const rows = data.trim().split('\n');
-        const table = document.getElementById('top-scorers-table2');
+// Populate tables with wrestler data
+generateTableData(wrestlerData1, 'data-table1');
+generateTableData(wrestlerData2, 'data-table2');
 
-        rows.forEach((row, index) => {
-            const cols = row.split(',');
-            const tr = document.createElement('tr');
-
-            cols.forEach(col => {
-                const cell = document.createElement(index === 0 ? 'th' : 'td');
-                cell.textContent = col.trim();
-                tr.appendChild(cell);
-            });
-
-            table.appendChild(tr);
-        });
-    })
-    .catch(error => console.error('Error loading data for top-scorers-table:', error));
+// Function to sort table columns
+function sortTable(n, tableId) {
+    const table = document.getElementById(tableId);
+    let rows = Array.from(table.querySelectorAll("tbody tr"));
+    let isAscending = table.dataset.sortOrder === 'asc';
+    
+    rows.sort((rowA, rowB) => {
+        const cellA = rowA.children[n].textContent;
+        const cellB = rowB.children[n].textContent;
+        return isAscending 
+            ? cellA.localeCompare(cellB, undefined, {numeric: true}) 
+            : cellB.localeCompare(cellA, undefined, {numeric: true});
+    });
+    
+    table.dataset.sortOrder = isAscending ? 'desc' : 'asc';
+    
+    rows.forEach(row => table.querySelector("tbody").appendChild(row));
+}
