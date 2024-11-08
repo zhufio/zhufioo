@@ -3,7 +3,7 @@ const wrestlerData1 = [
     [2, "Indestructible Os", "5 - 2 - 0", 11, 3, 0, "Indestructible Isaac", "Owen Owl Oxley", "LLLWWWL"],
     [3, "Uber Cowboys", "4 - 3 - 0", 9, 1, 0, "Spike Cowboy", "Uber Squeezed Papaya", "LWLLWWW"],
     [4, "KT", "3 - 4 - 0", 10, 1, 0, "Trajanboy", "Kendrick Bush", "WWWWWLL"],
-    [5, "Moon Jets", "3 - 4 - 0", 8, -2, 0, "Aiden Jet", "Kyle Moon", "LWWWWWW"],
+    [5, "Moon Jets", "3 - 4 - 0", 8, -2, 1, "Aiden Jet", "Kyle Moon", "LWWWWWW"],
     [6, "Task: Heat", "3 - 4 - 0", 8, -2, 0, "Heat", "Zack Task", "WWLWLWW"],
     [7, "Rox Bops", "3 - 4 - 0", 7, -1, 0, "Benjamin Bops", "Will Rox", "WWLLWLL"],
     [8, "Frostbite Jays", "1 - 6 - 0", 5, -7, 0, "Frostbite Fred Bones", "Thaddeus Jay", "LLWLLWW"]
