@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wrestler Stats</title>
-    <link rel="stylesheet" href="styless.css"> 
+    <link rel="stylesheet" href="stylesss.css"> 
 </head>
 <body>
     <header>
@@ -21,14 +21,14 @@
         <table id="data-table" class="sortable">
             <thead>
                 <tr>
-                    <th><button>Wrestlers<span aria-hidden="true"></span></button></th>
-                    <th><button>Wins<span aria-hidden="true"></span></button></th>
-                    <th><button>Losses<span aria-hidden="true"></span></button></th>
-                    <th><button>Falls Gained<span aria-hidden="true"></span></button></th>
-                    <th><button>ZCW Champs<span aria-hidden="true"></span></button></th>
-                    <th><button>Cheap Champs<span aria-hidden="true"></span></button></th>
-                    <th><button>True Wrestling Champs<span aria-hidden="true"></span></button></th>
-                </tr>
+                    <th><button onclick="sortTable(0, 'data-table1')"><h3>Wrestlers</h3></button></th>
+                    <th><button onclick="sortTable(1, 'data-table1')"><h3>Win</h3></button></th>
+                    <th><button onclick="sortTable(2, 'data-table1')"><h3>Losses</h3></button></th>
+                    <th><button onclick="sortTable(3, 'data-table1')"><h3>Falls Gained</h3></button></th>
+                    <th><button onclick="sortTable(4, 'data-table1')"><h3>ZCW Champs</h3></button></th>
+                    <th><button onclick="sortTable(5, 'data-table1')"><h3>Cheap Champs</h3></button></th>
+                    <th><button onclick="sortTable(6, 'data-table1')"><h3>True Wrestling Champs</h3></button></th>
+                    </tr>
             </thead>
             <tbody>
             </tbody>

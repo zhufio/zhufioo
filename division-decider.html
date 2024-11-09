@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Division Decider</title>
-    <link rel="stylesheet" href="styless.css"> 
+    <link rel="stylesheet" href="stylesss.css"> 
     <header>
         <nav class="navbar">
             <a href="index.html" title="Home">Home</a>
@@ -15,10 +15,38 @@
     </header>
 </head>
 <body>
- 
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="division-decider.html" class="button">Division Decider</a></li>
+                <li><a href="standings.html" class="button">Season 1</a></li>
+                <li><a href="season2.html" class="button">Season 2</a></li>
+                <li><a href="#section3" class="button">Season 3</a></li>
+            </ul>
+        </aside>
         <main class="content">
             <h1>Division Decider</h1>
-            <table id="data-table">
+            <!-- First Table -->
+            <div class="table-wrap">
+                <table id="data-table1" class="sortable">
+                    <thead>
+                        <tr>
+                            <th><button onclick="sortTable(0, 'data-table1')"><h3>Rank</h3></button></th>
+                            <th><button onclick="sortTable(1, 'data-table1')"><h3>Participant</h3></button></th>
+                            <th><button onclick="sortTable(2, 'data-table1')"><h3>Match W-L-T</h3></button></th>
+                            <th><button onclick="sortTable(3, 'data-table1')"><h3>Pts</h3></button></th>
+                            <th><button onclick="sortTable(4, 'data-table1')"><h3>Pts Diff</h3></button></th>
+                            <th><button onclick="sortTable(5, 'data-table1')"><h3>TB</h3></button></th>
+                            <th><button onclick="sortTable(6, 'data-table1')"><h3>Wrestler A</h3></button></th>
+                            <th><button onclick="sortTable(7, 'data-table1')"><h3>Wrestler B</h3></button></th>
+                             </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
     
     <script src="script4.js"></script>
 </body>
