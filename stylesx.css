@@ -1,5 +1,28 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Set full height */
     font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(40deg, #0b1f0f, #169c6f);
+    font-family: Arial, sans-serif;
+    font-weight: 100;
 }
 
 .navbar {
@@ -15,8 +38,14 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #575757;
+    background-color: #63c582;
 }
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px); /* Adjust height based on header height */
+}
+
 .toc {
     display: flex;
     flex-wrap: wrap;
@@ -28,25 +57,41 @@ body {
 }
 
 .toc-column {
-    flex: 1; /* Allow columns to grow equally */
-    min-width: 200px; /* Minimum width for responsiveness */
-    margin: 0 10px; /* Spacing between columns */
+    flex: 1;
+    min-width: 200px;
+    margin: 0 10px;
 }
 
+
+.toc-column a {
+    text-decoration: none;
+    color: #63c582;
+}
 .toc-column ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
+    list-style-type: none;
+    padding: 0;
 }
 
 .toc-column li {
-    margin-bottom: 8px; /* Space between items */
+    margin-bottom: 10px; /* Add space between each list item */
 }
 
-.toc-column a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007BFF; /* Link color */
+/* Adjusted button styling */
+.button {
+    background-color: #000000;
+    color: #63c582;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block; /* Ensure buttons take up only the necessary space */
+    width: 300px; /* Make buttons fill the width of the column */
+    text-align: left;
+    box-sizing: border-box;
+    margin: 5px; /* Space between buttons */
 }
 
-.toc-column a:hover {
-    text-decoration: underline; /* Underline on hover */
+.button:hover {
+    background-color: #63c582;
 }
