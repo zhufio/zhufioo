@@ -135,23 +135,26 @@ tbody td:hover:before {
   background-color: rgb(166, 255, 194);
   z-index: -1;
 }
-
-table.sortable th button {
-  padding: 4px;
-  margin: 1px;
+  table.sortable th button {
+    list-style: none; /* Removes dot if it's a browser default */
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    color: inherit;
   font-size: 100%;
   font-weight: bold;
   background: transparent;
-  border: none;
   display: inline;
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
   width: 100%;
-  text-align: left;
-  outline: none;
-  cursor: pointer;
+
 }
 
 table.sortable th button span {
