@@ -39,20 +39,33 @@ generateTableData(wrestlerData1, 'data-table1');
 generateTableData(wrestlerData2, 'data-table2');
 
 // Function to sort table columns
+// Function to sort table columns
 function sortTable(n, tableId) {
     const table = document.getElementById(tableId);
     let rows = Array.from(table.querySelectorAll("tbody tr"));
     let isAscending = table.dataset.sortOrder === 'asc';
     
     rows.sort((rowA, rowB) => {
-        const cellA = rowA.children[n].textContent;
-        const cellB = rowB.children[n].textContent;
-        return isAscending 
-            ? cellA.localeCompare(cellB, undefined, {numeric: true}) 
-            : cellB.localeCompare(cellA, undefined, {numeric: true});
+        const cellA = rowA.children[n].textContent.trim();
+        const cellB = rowB.children[n].textContent.trim();
+
+        // Check if the cell content is a number, including negative numbers
+        const valueA = !isNaN(cellA) ? parseFloat(cellA) : cellA;
+        const valueB = !isNaN(cellB) ? parseFloat(cellB) : cellB;
+
+        // Sort numerically if both values are numbers, else use localeCompare for strings
+        if (typeof valueA === 'number' && typeof valueB === 'number') {
+            return isAscending ? valueA - valueB : valueB - valueA;
+        } else {
+            return isAscending 
+                ? valueA.localeCompare(valueB, undefined, {numeric: true}) 
+                : valueB.localeCompare(valueA, undefined, {numeric: true});
+        }
     });
     
+    // Toggle sort order for next click
     table.dataset.sortOrder = isAscending ? 'desc' : 'asc';
     
+    // Append sorted rows back to the table body
     rows.forEach(row => table.querySelector("tbody").appendChild(row));
 }
