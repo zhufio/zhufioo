@@ -5,8 +5,8 @@
 }
 
 html, body {
-    height: 100%; /* Set full height */
-    font-family: Arial, sans-serif;
+    height: 200%; /* Set full height */
+    font-family: "Fugaz One", sans-serif;
     margin: 0;
 }
 
@@ -21,7 +21,7 @@ h3 {
 
 body {
     background: linear-gradient(40deg, #0b1f0f, #169c6f);
-    font-family: Arial, sans-serif;
+    font-family: "Fugaz One", sans-serif;
     font-weight: 100;
 }
 
