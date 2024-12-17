@@ -1,6 +1,6 @@
 const wrestlerData1 = [
-    [1, "Otunga Velvet", "4 - 0 - 0", 8, 7, 0, "Jason Otunga", "Xander Velvet"],
-    [2, "Viridian Sail", "3 - 1 - 0", 7, 4, 1, "Mr Viridian", "Troy the Sailor"],
+    [1, "Otunga Velvet", "4 - 0 ", 8, 7, 0, "Jason Otunga", "Xander Velvet"],
+    [2, "Viridian Sail", "3 - 1 ", 7, 4, 1, "Mr Viridian", "Troy the Sailor"],
     [3, "Uber Cowboys", "3 - 1", 7, 4, 0, "Spike Cowboy", "Uber Squeezed Papaya"],
     [4, "K T", "2 - 2 ", 5, -1, 0, "Trajanboy", "Kendrick Bush"],
     [5, "Task: Heat", "2 - 2", 4, -1, 0, "Heat", "Zack Task"],
