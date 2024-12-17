@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Division Decider</title>
-    <link rel="stylesheet" href="stylesss.css"> 
+    <link rel="stylesheet" href="styles4dd.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
@@ -20,18 +20,20 @@
 </head>
 <body>
   
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Table of Contents</h2>
-            <ul>
-                <li><a href="division-decider.html" class="button">Division Decider</a></li>
-                <li><a href="standings.html" class="button">Season 1</a></li>
-                <li><a href="season2.html" class="button">Season 2</a></li>
-                <li><a href="season3.html" class="button">Season 3</a></li>
-            </ul>
-        </aside>
-        <main class="content">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="division-decider.html" class="button">Division Decider</a>
+        <a href="standings.html" class="button">Season 1</a>
+        <a href="season2.html" class="button">Season 2</a>
+        <a href="season3.html" class="button">Season 3</a>
+    
+      </div>
+        <header class="header">
+            <!-- Header Container -->
+            <div class="title-container">                
+                <button class="openbtn" onclick="openNav()">☰</button>
             <h1>Division Decider</h1>
+            </div>
             <!-- First Table -->
             <div class="table-wrap">
                 <table id="data-table1" class="sortable">

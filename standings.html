@@ -18,20 +18,21 @@
             <a href="season2.html">Current Standings</a>
             <a href="stats.html" title="Stats">Stats</a>
         </nav>
-    </header>
- 
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Table of Contents</h2>
-            <ul>
-                <li><a href="division-decider.html" class="button">Division Decider</a></li>
-                <li><a href="standings.html" class="button">Season 1</a></li>
-                <li><a href="season2.html" class="button">Season 2</a></li>
-                <li><a href="season3.html" class="button">Season 3</a></li>
-            </ul>
-        </aside>
-        <main class="content">
+    </header> 
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="division-decider.html" class="button">Division Decider</a>
+        <a href="standings.html" class="button">Season 1</a>
+        <a href="season2.html" class="button">Season 2</a>
+        <a href="season3.html" class="button">Season 3</a>
+    
+      </div>
+      <header class="header">
+        <!-- Header Container -->
+        <div class="title-container">                
+            <button class="openbtn" onclick="openNav()">☰</button>
             <h1>Season 1 Standings</h1>
+        </div>
             <!-- First Table -->
             <div class="table-wrap">
                 <h2>Championship League</h2>
@@ -40,7 +41,7 @@
                         <tr>
                             <th><button onclick="sortTable(0, 'data-table1')"><h3>Rank</h3></button></th>
                             <th><button onclick="sortTable(1, 'data-table1')"><h3>Team</h3></button></th>
-                            <th><button onclick="sortTable(2, 'data-table1')"><h3>Match W-L-T</h3></button></th>
+                            <th><button onclick="sortTable(2, 'data-table1')"><h3>Match W-L</h3></button></th>
                             <th><button onclick="sortTable(3, 'data-table1')"><h3>Pts</h3></button></th>
                             <th><button onclick="sortTable(4, 'data-table1')"><h3>Pts Diff</h3></button></th>
                             <th><button onclick="sortTable(5, 'data-table1')"><h3>TB</h3></button></th>
@@ -62,7 +63,7 @@
                         <tr>
                             <th><button onclick="sortTable(0, 'data-table2')"><h3>Rank</h3></button></th>
                             <th><button onclick="sortTable(1, 'data-table2')"><h3>Team</h3></button></th>
-                            <th><button onclick="sortTable(2, 'data-table2')"><h3>Match W-L-T</h3></button></th>
+                            <th><button onclick="sortTable(2, 'data-table2')"><h3>Match W-L</h3></button></th>
                             <th><button onclick="sortTable(3, 'data-table2')"><h3>Pts</h3></button></th>
                             <th><button onclick="sortTable(4, 'data-table2')"><h3>Pts Diff</h3></button></th>
                             <th><button onclick="sortTable(5, 'data-table2')"><h3>TB</h3></button></th>

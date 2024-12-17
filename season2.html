@@ -11,15 +11,26 @@
 
 </head>
 <body>
+    
     <header>
-        <nav class="navbar">
+       
+     <nav class="navbar">
             <a href="index.html" title="Home">Home</a>
             <a href="tableofcontents.html">Standings</a>
             <a href="season2.html">Current Standings</a>
             <a href="stats.html" title="Stats">Stats</a>
         </nav>
     </header>
- 
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="division-decider.html" class="button">Division Decider</a>
+        <a href="standings.html" class="button">Season 1</a>
+        <a href="season2.html" class="button">Season 2</a>
+        <a href="season3.html" class="button">Season 3</a>
+    
+      </div>
+      <!-- <div id="main"></div>
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button> 
     <div class="container">
         <aside class="sidebar">
             <h2>Table of Contents</h2>
@@ -29,9 +40,15 @@
                 <li><a href="season2.html" class="button">Season 2</a></li>
                 <li><a href="season3.html" class="button">Season 3</a></li>
             </ul>
-        </aside>
-        <main class="content">
-            <h1>Season 2 Standings</h1>
+        </aside>-->
+               
+        <header class="header">
+            <!-- Header Container -->
+            <div class="title-container">                
+                <button class="openbtn" onclick="openNav()">☰</button>
+                <h1>Season 2 Standings</h1>
+            </div>
+            
             <!-- First Table -->
             <div class="table-wrap">
                 <h2>Championship League</h2>
@@ -40,20 +57,19 @@
                         <tr>
                             <th><button onclick="sortTable(0, 'data-table1')"><h3>Rank</h3></button></th>
                             <th><button onclick="sortTable(1, 'data-table1')"><h3>Team</h3></button></th>
-                            <th><button onclick="sortTable(2, 'data-table1')"><h3>Match W-L-T</h3></button></th>
+                            <th><button onclick="sortTable(2, 'data-table1')"><h3>Match W-L</h3></button></th>
                             <th><button onclick="sortTable(3, 'data-table1')"><h3>Pts</h3></button></th>
                             <th><button onclick="sortTable(4, 'data-table1')"><h3>Pts Diff</h3></button></th>
                             <th><button onclick="sortTable(5, 'data-table1')"><h3>TB</h3></button></th>
                             <th><button onclick="sortTable(6, 'data-table1')"><h3>Wrestler A</h3></button></th>
                             <th><button onclick="sortTable(7, 'data-table1')"><h3>Wrestler B</h3></button></th>
-                            <th><button onclick="sortTable(8, 'data-table1')"><h3>Match History</h3></button></th>
                         </tr>
                     </thead>
                     <tbody>
                     </tbody>
                 </table>
             </div>
-
+        
             <!-- Second Table -->
             <div class="table-wrap">
                 <h2>Switch League</h2>
@@ -62,13 +78,12 @@
                         <tr>
                             <th><button onclick="sortTable(0, 'data-table2')"><h3>Rank</h3></button></th>
                             <th><button onclick="sortTable(1, 'data-table2')"><h3>Team</h3></button></th>
-                            <th><button onclick="sortTable(2, 'data-table2')"><h3>Match W-L-T</h3></button></th>
+                            <th><button onclick="sortTable(2, 'data-table2')"><h3>Match W-L</h3></button></th>
                             <th><button onclick="sortTable(3, 'data-table2')"><h3>Pts</h3></button></th>
                             <th><button onclick="sortTable(4, 'data-table2')"><h3>Pts Diff</h3></button></th>
                             <th><button onclick="sortTable(5, 'data-table2')"><h3>TB</h3></button></th>
                             <th><button onclick="sortTable(6, 'data-table2')"><h3>Wrestler A</h3></button></th>
                             <th><button onclick="sortTable(7, 'data-table2')"><h3>Wrestler B</h3></button></th>
-                            <th><button onclick="sortTable(8, 'data-table2')"><h3>Match History</h3></button></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -76,8 +91,7 @@
                 </table>
             </div>
         </main>
-    </div>
-
-    <script src="script3.js"></script>
+        <script src="script3.js"></script>
+     
 </body>
 </html>
