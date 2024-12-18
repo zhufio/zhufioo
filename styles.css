@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 /* General Reset and Layout */
 body {
     font-family: "Fugaz One", sans-serif;
@@ -6,18 +11,15 @@ body {
     font-weight: 100;
 }
 
-/* Navbar Styling */
 .navbar {
-    overflow: hidden;
+    display: flex;
     background-color: #333;
+    padding: 10px;
 }
 
 .navbar a {
-    float: left;
-    font-size: 17px;
     color: white;
-    text-align: center;
-    padding: 16px 17px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
@@ -88,14 +90,6 @@ th {
     background-color: #f2f2f2;
 }
 
-#data-table-2 {
-    background-color: #f9f9f9;
-}
-
-#data-table-2 th {
-    background-color: #333;
-    color: white;
-}
 
 /* Hover Effect for Table Rows */
 tr:hover {
