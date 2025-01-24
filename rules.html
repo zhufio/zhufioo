@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules</title>
+    <link rel="stylesheet" href="stylesx5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" title="Home">Home</a>
+            <a href="tableofcontents.html">Standings</a>
+            <a href="season3.html">Current Standings</a>
+            <a href="stats.html">Stats</a>
+            <a href="rules.html" title="Rules">Rules</a>
+            <a href="">List of Champs</a>
+        </nav>
+    </header>
+
+    <h1>Rules</h1>
+
+    <!-- Two Column Layout -->
+    <div class="two-column">
+        <!-- Left Column: Table -->
+        <div class="table-column">
+            <div class="table-wrap">
+                <table id="data-table" class="sortable">
+                    <thead>
+                        <tr>
+                          <th colspan="2">
+                                <button onclick="sortTable(0)">Start offseason</button>
+                            </th>
+                            <th colspan="2">
+                                <button onclick="sortTable(1)">End offseason</button>
+                            </th>
+                            <th>
+                                <button onclick="sortTable(2)">Draft Order</button>
+                            </th>
+                            <th>
+                                <button onclick="sortTable(3)">x = how many Wrestlers left</button>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                </table>
+            </div>
+        </div>
+
+    <script src="script6.js"></script>
+</body>
+</html>

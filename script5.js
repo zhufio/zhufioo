@@ -1,23 +1,23 @@
 const wrestlerData1 = [
-    [1, "Otunga Velvet", "4 - 0 ", 8, 7, 0, "Jason Otunga", "Xander Velvet"],
-    [2, "Viridian Sail", "3 - 1 ", 7, 4, 1, "Mr Viridian", "Troy the Sailor"],
-    [3, "Uber Cowboys", "3 - 1", 7, 4, 0, "Spike Cowboy", "Uber Squeezed Papaya"],
-    [4, "K T", "2 - 2 ", 5, -1, 0, "Trajanboy", "Kendrick Bush"],
-    [5, "Task: Heat", "2 - 2", 4, -1, 0, "Heat", "Zack Task"],
-    [6, "Hero Coles", "1 - 3", 3, -3, 0, "Hero Cho", "Cole Castor"],
-    [7, "Indestructible Os", "1- 3", 3, -4, 0, "Indestructible Isaac", "Owen Owl Oxley"],
-    [8, "Moon Jets", "0 - 4 ", 2, -6 , 0, "Aiden Jet", "Kyle Moon"]
+    [1, "Uber Cowboys", "6 - 1", 13, 9, 0, "Spike Cowboy", "Uber Squeezed Papaya"],
+    [2,"Otunga Velvet", "5 - 2 ", 12, 7, 0, "Jason Otunga", "Xander Velvet"],
+    [3, "Hero Coles", "4 - 3", 9, 2, 1, "Hero Cho", "Cole Castor"],
+    [4, "Viridian Sail", "4 - 3 ", 9, 2, 0, "Mr Viridian", "Troy the Sailor"],
+    [5, "K T", "4 - 3 ", 9, 0, 0, "Trajanboy", "Kendrick Bush"],
+    [6, "Task: Heat", "3 - 4", 7, -3, 0, "Heat", "Zack Task"],
+    [7, "Moon Jets", "1 - 6 ", 4, -8 , 0, "Aiden Jet", "Kyle Moon"],
+    [8, "Indestructible Os", "1 - 6", 4, -9, 0, "Indestructible Isaac", "Owen Owl Oxley"],
     ];
 
 const wrestlerData2 = [
-    [1, "Bop Mania", "4 - 0", 8, 8, 0, "Benjamin Bops", "Minty Mania"],
-    [2, "The Rockers", "3 - 1 ", 6, 4, 0, "Hakeem Kurr", "Rocket Head"],
-    [3, "Crazy Casuals", "2 - 2", 5, 0, 0, "Pandemonium", "Casual Carlton"],
-    [4, "Crystal Kids", "2 - 2 ", 4, 0, 0, "The Kid", "Crystal"],
-    [5, "Rox Jay", "2 - 2 ", 4, -1, 0, "Thaddeus Jay", "Will Rox"],
-    [6, "Frosty Hams", "2 - 2", 4, -2, 0, "Lars Hamilton", "Frostbite Fred Bones"],
-    [7, "Gloryuri", "1 - 3", 3, -3, 0, "Andrew Yuri", "Edwardo"],
-    [8, "Go Diegos", "0 - 4", 2, -6, 0, "Go Sea Balt", "Diego Torres"]
+    [1, "Bop Mania", "7 - 0", 14, 13, 0, "Benjamin Bops", "Minty Mania"],
+    [2, "The Rockers", "4 - 3 ", 8, 1, 0, "Hakeem Kurr", "Rocket Head"],
+    [3, "Frosty Hams", "4- 3", 8, -1, 0, "Lars Hamilton", "Frostbite Fred Bones"],
+    [4, "Crazy Casuals", "3 - 4", 9, 0, 0, "Pandemonium", "Casual Carlton"],
+    [5, "Go Diegos", "3 - 4", 8, 0, 0, "Go Sea Balt", "Diego Torres"],
+    [6, "Crystal Kids", "3 - 4 ", 7,-1, 0, "The Kid", "Crystal"],
+    [7, "Rox Jay", "3 - 4 ", 7, -3, 0, "Thaddeus Jay", "Will Rox"],
+    [8, "Gloryuri", "1 -6", 3, -9, 0, "Andrew Yuri", "Edwardo"],
     ];
 
 function generateTableData(data, tableId) {
